@@ -325,15 +325,13 @@ keypress(XKeyEvent *ev)
 
 	if (ev->state & ControlMask) {
 		switch(ksym) {
-		case XK_u: ksym = XK_Home;      break;
+		case XK_u: ksym = XK_Prior;      break;
 		case XK_b: ksym = XK_Left;      break;
 		case XK_c: ksym = XK_Escape;    break;
-		/* case XK_d: ksym = XK_Delete;    break; */
-		case XK_d: ksym = XK_End;       break;
-		case XK_f: ksym = XK_Right;     break;
-		case XK_g: ksym = XK_Escape;    break;
+		case XK_d: ksym = XK_Next;       break;
 		case XK_h: ksym = XK_BackSpace; break;
-		case XK_i: ksym = XK_Tab;       break;
+		case XK_f: ksym = XK_Home;       break;
+		case XK_g: ksym = XK_End;       break;
 		case XK_o: /* fallthrough */
 		case XK_J: /* fallthrough */
 		case XK_m: /* fallthrough */
@@ -341,13 +339,6 @@ keypress(XKeyEvent *ev)
 		case XK_j: ksym = XK_Down;      break;
 		case XK_k: ksym = XK_Up;        break;
 
-		/* case XK_k: /1* delete right *1/ */
-		/* 	text[cursor] = '\0'; */
-		/* 	match(); */
-		/* 	break; */
-		/* case XK_u: /1* delete left *1/ */
-		/* 	insert(NULL, 0 - cursor); */
-		/* 	break; */
 		case XK_w: /* delete word */
 			while (cursor > 0 && strchr(worddelimiters, text[nextrune(-1)]))
 				insert(NULL, nextrune(-1) - cursor);
