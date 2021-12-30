@@ -2,4 +2,5 @@
 *.rej
 dmenu
 stest
-*.orij
+*.orig
+*.diff

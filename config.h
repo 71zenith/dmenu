@@ -6,7 +6,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static const char *fonts[] = {
 	"Jetbrains Mono:size=13",
 	"Noto Color Emoji:pixelsize=14:antialias=true:autohint=true",
-	"Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true",
+	"Symbols Nerd Font:pixelsize=20:antialias=true:autohint=true",
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
