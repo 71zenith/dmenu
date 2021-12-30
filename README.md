@@ -2,9 +2,10 @@
 
 ## Patches used are :-
 
-- Highlight
 - Line height
 - Numbers
+- Fuzzymatch
+- Fuzzyhighlight
 
 ## Custom keybindings :-
 
