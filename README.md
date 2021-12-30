@@ -10,6 +10,8 @@
 
 - `C-j` Down
 - `C-k` Up
+- `C-l` Down
+- `C-h` Up
 - `C-u` Home
 - `C-d` End
 - `C-o` Return

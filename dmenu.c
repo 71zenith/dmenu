@@ -388,7 +388,6 @@ keypress(XKeyEvent *ev)
 		case XK_b: ksym = XK_Left;      break;
 		case XK_c: ksym = XK_Escape;    break;
 		case XK_d: ksym = XK_Next;       break;
-		case XK_h: ksym = XK_BackSpace; break;
 		case XK_f: ksym = XK_Home;       break;
 		case XK_g: ksym = XK_End;       break;
 		case XK_o: /* fallthrough */
@@ -397,6 +396,8 @@ keypress(XKeyEvent *ev)
 		case XK_M: ksym = XK_Return; ev->state &= ~ControlMask; break;
 		case XK_j: ksym = XK_Down;      break;
 		case XK_k: ksym = XK_Up;        break;
+		case XK_l: ksym = XK_Down;      break;
+		case XK_h: ksym = XK_Up;        break;
 
 		case XK_w: /* delete word */
 			while (cursor > 0 && strchr(worddelimiters, text[nextrune(-1)]))
