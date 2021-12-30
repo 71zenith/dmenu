@@ -1,5 +1,11 @@
 # This repo contains my personal build of Dmenu
 
+## Patches used are :-
+
+- Highlight
+- Line height
+- Numbers
+
 ## Custom keybindings :-
 
 - `C-j` Down
@@ -20,4 +26,3 @@ doas make install
 ```
 
 Run the above command in the terminal and if everything goes right, then dmenu will be on your system.
-
