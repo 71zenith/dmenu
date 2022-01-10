@@ -511,7 +511,6 @@ keypress(XKeyEvent *ev)
 		case XK_KP_Right:
 			movewordedge(+1);
 			goto draw;
-		case XK_Return:
 		case XK_KP_Enter:
 			break;
 		case XK_bracketleft:
