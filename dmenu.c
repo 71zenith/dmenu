@@ -504,11 +504,11 @@ keypress(XKeyEvent *ev)
 			                  utf8, utf8, win, CurrentTime);
 			return;
 		case XK_Left:
-		case XK_KP_Left:
+		case XK_p:
 			movewordedge(-1);
 			goto draw;
 		case XK_Right:
-		case XK_KP_Right:
+		case XK_n:
 			movewordedge(+1);
 			goto draw;
 		case XK_KP_Enter:

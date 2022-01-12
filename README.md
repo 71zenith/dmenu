@@ -16,6 +16,8 @@
 - `C-u` Home
 - `C-d` End
 - `C-o` Return
+- `C-p` Go to start
+- `C-n` Go to end
 
 ## Installation :-
 
