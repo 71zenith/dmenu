@@ -5,7 +5,7 @@ static int topbar = 1; /* -b  option; if 0, dmenu appears at bottom     */
 static int fuzzy = 1;  /* -F  option; if 0, dmenu doesn't use fuzzy matching  */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-    "Jetbrains Mono Nerd Font Mono:size=12",
+    "Iosevka:size=13",
     "JoyPixels:pixelsize=14:antialias=true:autohint=true",
 };
 static const char *prompt =
